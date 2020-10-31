@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+}
+
+section {
+  margin-bottom: 200px;
+}
+
+.header {
+  padding: 55px 0;
+}
+
+.header__logo {
+
+}
+
+.nav {
+
+}
+
+.nav__item {
+  margin: 0 20px;
+  color: #1F1534;
+  opacity: 0.5;
+  transition: 0.2s;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.nav__item:hover {
+  text-decoration: none;
+  color: #1F1534;
+  opacity: 1;
+}
+
+.nav__item.active {
+  opacity: 1;
+}
+
+.hero {
+  background-image: url(./images/dots.svg);
+  background-repeat: no-repeat;
+  padding-bottom: 90px;
+}
+
+.hero__image {
+  width: 100%;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 56px;
+  color: #000000;
+  margin: 0;
+}
+
+.paragraph {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7D7987;
+  margin: 0;
+
+}
+
+.button {
+  background: #458FF6;
+  border-radius: 55px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 60px;
+  color: #FFFFFF;
+  padding: 15px 40px;
+  transition: 0.2s;
+  display: inline-block;
+}
+
+.button:hover {
+  text-decoration: none;
+  opacity: 0.75;
+  cursor: pointer;
+  color: white;
+}
+
+hr {
+  width: 56px;
+  height: 2px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: black;
+}
+
+.card {
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+  margin-left: 35px;
+  margin-bottom: 37px;
+  min-height: 354px;
+}
+
+
+
+
+footer {
+  background-image: url(./images/dots2.svg), linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+  background-position: left bottom, left top;
+  background-repeat: no-repeat,no-repeat;
+  color: white;
+  padding: 120px 90px;
+}
+
+.footer__logo-wrapper {
+  position: relative;
+}
+
+.footer__logo2-2 {
+  position: absolute;
+  top: 29%;
+  left: 3.3%;
+} 
+
+ul {
+  list-style-type: none;
+}
+
+li a {
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.margin-bottom--16 {
+  margin-bottom: 16px;
+}
+
+.margin-bottom--25 {
+  margin-bottom: 25px;
+}
+
+.margin-bottom--45 {
+  margin-bottom: 45px;
+}
